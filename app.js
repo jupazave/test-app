@@ -14,7 +14,9 @@ var app = express();
 
 
 isaura.init({
-  models: path.join(__dirname, 'models')
+  models: path.join(__dirname, 'models'), 
+  root: 'isaura',
+  mongodb: 'mongodb://localhost/isaura-test'
 });
 
 
